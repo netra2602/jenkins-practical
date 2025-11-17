@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'netra2602/jenkins-demo'     // change if needed
-        AWS_HOST = 'ec2-user@<YOUR_EC2_PUBLIC_IP>'     // fill later
+        DOCKER_HUB_REPO = 'netra2608/jenkins-demo'     // change if needed
+        AWS_HOST = 'ec2-user@13.232.202.98'     // fill later
         AWS_KEY  = credentials('aws-key')              // Jenkins credential ID
     }
 
